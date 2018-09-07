@@ -2,6 +2,7 @@
 CSS is a cascade styles language. Each style can be written inline at HTML page It's a bad practice and outline
 (in a separated file with `*.css` extension)
 
+
 #### Class vs ID
 Class and ID have a similar logic. If you want to add some custom styles -> you can add an attribute
 class or id into your HTML tag and later, in css file by using this name add some styles.
@@ -18,6 +19,8 @@ for example: you create a tag with class `blue-background` and in this class you
 }
 ```
 
+
+
 So you create a few divs with some content inside.
 right now this divs have white background by default.
 When you add a class attribute -> this change their behaviour.
@@ -30,6 +33,8 @@ Let's add some another classes:
 }
 ```
 
+
+
 When we create div with this class it looks like a square block.
 Let's add a second element with class attribute square.
 
@@ -41,6 +46,8 @@ Then I'll show you an example or using ids and implement cascade styling.
   width:  200px;
 }
 ```
+
+
 
 When we add class square it looks this [pic]
 When we also add id attribute as red-square - it looks like it get rules from id.
@@ -61,6 +68,8 @@ and let's add `color:red` to id style rules.
   color:  red;
 }
 ```
+
+
 
 #### Divs
 

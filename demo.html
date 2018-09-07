@@ -117,73 +117,184 @@
 
 				<section>
 					<h4>
-						Basic terms
+						What is CSS
 					</h4>
 
 					<p class="fragment">
-						Flexbox layout
-						<span class="blue">(Flexible box) </span>
 
-						aiming to provide a more efficient way to create layout, align and adjust space between
-						items in container, even if size is unknown or dynamic.
-					</p>
-
-					<p class="fragment">
-
-						This is why we use term
-						<span class="blue">"flex"</span> for this child items.
-						Main idea is to give ability to alter width and height
-						and order to child elements.
-
-						It can fit to big part of process, relate to adjustment
-						web pages for different devices and screens
+						CSS is a cascade styles language. Each style can be written inline at HTML page It's a bad practice and outline
+						(in a separated file with <span class="blue">*.css</span> extension)
 
 					</p>
-					<p class="fragment">
-						<span class="blue">Note:</span>
 
-							 Flexbox is better to use for components, small sized layouts.
-							While Grid system is better choice for large scale layouts.
-					</p>
+
 				</section>
+
+
+				####
+
+
+
+
+
+
 
 
 				<section>
 					<h4>
-						What is flexbox?
+						Class vs ID
 					</h4>
 					<p>
-						Flexbox is a set of CSS rules. it envolve a lot of things. Flexbox have a hierarchy in CSS rules.
-						Some rules related to a parent components
+						Class and ID have a similar logic. If you want to add some custom styles -> you can add an attribute
+						class or id into your HTML tag and later, in css file by using this name add some styles.
+						So, what is the difference?
+
+						One class name can be added a lot of times on your page.
+						Id attribute is unique. YOu can use different id names, but classes can be assigned to a different elements on page.
+						You can assign same class to a different HTML tag too.
+
+						for example: you create a tag with class
+
+
 						<span class="green">
-							(Flex Container)
+							`blue-background`
 						</span>
+						and in this class you can add this css rule.
 
- 						and child components
-						<span class="green">
-							(Flex Items)
-						</span>
 
-						Regular CSS blocks use Block + Inline directions.
 
-						Flexbox is based on their own directions.
+						<pre>
+							<code class="hljs">
+								.blue-background {
+									background: blue;
+								}
+							</code>
+						</pre>
 					</p>
 				</section>
 
+				<section>
+
+					So you create a few divs with some content inside.
+					right now this divs have white background by default.
+					When you add a class attribute -> this change their behaviour.
+
+					Let's add some another classes:
+					<pre>
+						<code class="hljs">
+							.square {
+							  height: 100px;
+							  width:  100px;
+							}
+						</code>
+					</pre>
+
+				</section>
+
+				<section>
+					When we create div with this class it looks like a square block.
+					Let's add a second element with class attribute square.
+
+					Then I'll show you an example or using ids and implement cascade styling.
+					<pre>
+						<code class="hljs">
+							#red-square {
+							  height: 200px;
+							  width:  200px;
+							}
+						</code>
+					</pre>
+
+				</section>
+
+				<section>
+					When we add class square it looks this [pic]
+					When we also add id attribute as red-square - it looks like it get rules from id.
+					It's because an id have a higher priority in styling.
+					Let's add class
+					```
+
+					```
+					<pre>
+						<code class="hljs">
+							.blue {
+							  color: blue;
+							}
+						</code>
+					</pre>
+
+					and let's add `color:red` to id style rules.
+					<pre>
+						<code class="hljs">
+							#red-square {
+							  height: 200px;
+							  width:  200px;
+							  color:  red;
+							}
+						</code>
+					</pre>
+				</section>
 
 				<section>
 					<h4>
-						Flexbox Axis
+						Divs
 					</h4>
 					<p>
-						usually items go from MainStart to MainEnd
-					</p>
-					<p>
-						<img data-src="img/flex-axes.png" style="width:80%;" />
+						We touched HTML code in previous lesson. But today we'll talk more about divs.
+
+						Div is a block element. Usually you can use divs for wrap every element in the HTML page.
+						But lates HTML5 specification add a lot of new tags, that  decreasing number of divs inside the project.
+
+						Before you can have
+						<pre>
+							<code class="hljs">
+								<div class="header"></div>
+								<div class="main"></div>
+								<div class="footer"></div>
+							</code>
+						</pre>
 
 					</p>
+
 
 				</section>
+<section>
+	now
+	<pre>
+		<code class="hljs">
+			<nav></nav>
+			<main> or <section>
+			<footer></footer>
+		</code>
+	</pre>
+
+
+	Div is a powerful thing, but we'll touch only basics things.
+		</section>
+
+				<section>
+					Let's name
+					<pre>
+						<code class="hljs">
+							<div class="main"></div>
+							.main {
+							  width: 100%;
+							}
+
+							<div class="sidebar"></div>
+							.sidebar {
+							  width: 25%;
+							}
+
+							<div class="content"></div>
+							.content {
+							  width: 75%;
+							}
+						</code>
+					</pre>
+					
+					</section>
+
 
 				<section>
 					<!-- <h4>

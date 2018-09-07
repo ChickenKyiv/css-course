@@ -1,6 +1,11 @@
 
+
+
 #### Div with elements inside
 we'll add 2 styles in order to make divs looks like blocks
+
+
+
 
 #### Floating
 Usually you can use it in 2 states
@@ -24,6 +29,9 @@ Block2
 }
 ```
 By applying float left to a block 1 -> we'll see how it change it position
+
+
+
 
 #### Margins/ Padding
 with this rules `padding-left: 10px;` `margin-left:10px;` you can add invisible borders to your elements

@@ -67,7 +67,7 @@
 
 				<section>
 						<h2>Table of contents</h2>
-						<ul>
+						<ul class="small-table-of-contents">
 							<li>
 										What is CSS
 							</li>
@@ -122,20 +122,13 @@
 
 					<p class="fragment">
 
-						CSS is a cascade styles language. Each style can be written inline at HTML page It's a bad practice and outline
-						(in a separated file with <span class="blue">*.css</span> extension)
-
+						CSS is a cascade styles language.
+						Each style can be written inline( at HTML page ) and outline( at separated file ).
 					</p>
-
+					<p class="fragment">Inline styles is a bad practice</p>
+					<p class="fragment">Outline styles stored at a separated file with <span class="blue">*.css</span> extension</p>
 
 				</section>
-
-
-				####
-
-
-
-
 
 
 
@@ -147,39 +140,56 @@
 					<p>
 						Class and ID have a similar logic. If you want to add some custom styles -> you can add an attribute
 						class or id into your HTML tag and later, in css file by using this name add some styles.
+				</p>
+				<p>
 						So, what is the difference?
-
+</p>
+<p>
 						One class name can be added a lot of times on your page.
-						Id attribute is unique. YOu can use different id names, but classes can be assigned to a different elements on page.
-						You can assign same class to a different HTML tag too.
-
-						for example: you create a tag with class
-
-
-						<span class="green">
-							`blue-background`
-						</span>
-						and in this class you can add this css rule.
-
-
-
-						<pre>
-							<code class="hljs">
-								.blue-background {
-									background: blue;
-								}
-							</code>
-						</pre>
 					</p>
 				</section>
 
-				<section>
 
+
+		<section>
+			<p>
+									Id attribute is unique.
+								</p><p>
+									 You can use different id names, but classes can be assigned to a different elements on page.
+									You can assign same class to a different HTML tag too.
+<p>
+									for example: you create a tag with class
+</p>
+
+									<span class="green">
+										.blue-background
+									</span>
+									and in this class you can add this css rule.
+
+
+
+
+								</p>
+								<pre>
+									<code class="hljs">
+										.blue-background {
+											background: blue;
+										}
+									</code>
+								</pre>
+
+		</section>
+
+				<section>
+					<p>
 					So you create a few divs with some content inside.
 					right now this divs have white background by default.
 					When you add a class attribute -> this change their behaviour.
+				</p>
 
+				<p>
 					Let's add some another classes:
+				</p>
 					<pre>
 						<code class="hljs">
 							.square {
@@ -192,10 +202,13 @@
 				</section>
 
 				<section>
+					<p>
 					When we create div with this class it looks like a square block.
 					Let's add a second element with class attribute square.
-
+					</p>
+					<p>
 					Then I'll show you an example or using ids and implement cascade styling.
+					</p>
 					<pre>
 						<code class="hljs">
 							#red-square {
@@ -208,13 +221,13 @@
 				</section>
 
 				<section>
+					<p>
 					When we add class square it looks this [pic]
 					When we also add id attribute as red-square - it looks like it get rules from id.
 					It's because an id have a higher priority in styling.
 					Let's add class
-					```
+				</p>
 
-					```
 					<pre>
 						<code class="hljs">
 							.blue {
@@ -223,7 +236,10 @@
 						</code>
 					</pre>
 
+				<p>
 					and let's add `color:red` to id style rules.
+				</p>
+
 					<pre>
 						<code class="hljs">
 							#red-square {
@@ -244,8 +260,11 @@
 
 						Div is a block element. Usually you can use divs for wrap every element in the HTML page.
 						But lates HTML5 specification add a lot of new tags, that  decreasing number of divs inside the project.
-
+					</p>
+					<p>
 						Before you can have
+					</p>
+
 						<pre>
 							<code class="hljs">
 								<div class="header"></div>
@@ -254,26 +273,30 @@
 							</code>
 						</pre>
 
-					</p>
+
 
 
 				</section>
-<section>
-	now
-	<pre>
-		<code class="hljs">
-			<nav></nav>
-			<main> or <section>
-			<footer></footer>
-		</code>
-	</pre>
-
-
-	Div is a powerful thing, but we'll touch only basics things.
-		</section>
 
 				<section>
-					Let's name
+					now
+					<pre>
+						<code class="hljs">
+							<nav></nav>
+							<main> or <section>
+							<footer></footer>
+						</code>
+					</pre>
+
+
+					Div is a powerful thing, but we'll touch only basics things.
+			</section>
+
+
+			<section>
+				<p>
+						Let's name
+				</p>
 					<pre>
 						<code class="hljs">
 							<div class="main"></div>
@@ -312,12 +335,13 @@
 	</h4>
 	<p>
 		Usually you can use it in 2 states
-
+</p>
 		<span class="green">float: right</span>
 		<span class="green">float: left</span>
 
-
+<p>
 		let's add some more content inside our blocks:
+</p>
 
 		Block1
 		<pre>
@@ -329,19 +353,27 @@
 			</code>
 		</pre>
 
-		Block2
-		<pre>
-			<code class="hljs">
-				{
-				  color: magenta;
-				  background: grey;
-				}
-			</code>
-		</pre>
-		By applying float left to a block 1 -> we'll see how it change it position
+
+
+
+
 
 	</p>
 </section>
+
+<section>
+	Block2
+	<pre>
+		<code class="hljs">
+			{
+				color: magenta;
+				background: grey;
+			}
+		</code>
+	</pre>
+	By applying float left to a block 1 -> we'll see how it change it position
+</section>
+
 
 <section>
 	<h4>
@@ -351,51 +383,63 @@
 		with this rules `padding-left: 10px;` `margin-left:10px;` you can add invisible borders to your elements
 		margin give you invisible borders between elements
 		padding give you invisible borders inside the element.
-
+</p>
 		<pre>
 			<code class="hljs">
 				<div class="black"></div>
-				```
+				<div class="yellow"></div>
+				<div class="white"></div>
 				{
-				  color black
+				  color: black;
 				}
 				{
-				  color yellow
+				  color: yellow;
 				}
 				{
-				  color white
+				  color: white;
 				}
-				```
+
 			</code>
 		</pre>
 
 
-
-		let's add paddings to yellow block
-		let's add margin to white block
-		with this example you can make text inside the blocks displayed
-		 in the middle of the block.
-		this rule is `margin: 0 auto;`
-		<pre>
-			<code class="hljs">
-				margin: 0 auto;
-			</code>
-		</pre>
-
-
-		 it's a short version
-		of `margin-top:0;margin-bottom:0; margin-right:auto;margin-left:auto;`
-
-		<pre>
-			<code class="hljs">
-				margin-top:0;
-				margin-bottom:0;
-				margin-right:auto;
-				margin-left:auto;
-			</code>
-		</pre>
-	</p>
 </section>
+
+				<section>
+					<p>
+						let's add paddings to yellow block
+						let's add margin to white block
+						with this example you can make text inside the blocks displayed
+						 in the middle of the block.
+						this rule is `margin: 0 auto;`
+						<pre>
+							<code class="hljs">
+								margin: 0 auto;
+							</code>
+						</pre>
+
+</p>
+
+				</section>
+
+				<section>
+
+					<p>
+
+							 it's a short version
+							of `margin-top:0;margin-bottom:0; margin-right:auto;margin-left:auto;`
+
+							<pre>
+								<code class="hljs">
+									margin-top:0;
+									margin-bottom:0;
+									margin-right:auto;
+									margin-left:auto;
+								</code>
+							</pre>
+						</p>
+				</section>
+
 
 				<section>
 					<!-- <h4>

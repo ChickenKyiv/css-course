@@ -80,6 +80,8 @@ in the middle of the course we should have page with half of elements. like shor
 
 
 
+
+
 #### Part 4
 
 What do we see here
@@ -102,4 +104,4 @@ But we can limit or override this rule.
 
 If we add to our wrapper max-width: 400px, all elements will change their sides too.
 
-Because they count their sizes too. Because they count their widths beased on percentage from parent element width.
+Because they count their sizes too. Because they count their widths based on percentage from parent element width.

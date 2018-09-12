@@ -147,3 +147,6 @@ used for links, in order to change it reaction for hovering mouse into it
 ::visited
 if link was visited it can change
 ::focus
+
+
+maybe css3 gradients

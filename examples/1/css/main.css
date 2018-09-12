@@ -1,8 +1,12 @@
 /* Part 1 */
+.page_wrapper {
+  margin: 0 auto;
+  width: 400px;
+}
 .blue-background {
   background-color: blue;
+  color: white;
 }
-
 /* Part 2 */
 
 .square {
@@ -10,17 +14,19 @@
   width:  100px;
 }
 
+.border {
+  border: 1px solid black;
+}
 /* Part 3 */
 #red-square {
   height: 200px;
   width:  200px;
-
 }
 
 /* Part 4 */
-.blue {
+/* .blue {
   background-color: blue;
-}
+} */
 
 
 /* Part 5 */
@@ -30,7 +36,9 @@
   background-color: red;
 }
 
-
+.blue {
+  background-color: blue;
+}
 
 /* Part DIVS */
 
@@ -48,42 +56,43 @@
 
 
 /* Chapter 2 */
-
+/*
 .pull-right {
   float: right;
 }
 
 .pull-left {
   float: left;
-}
+} */
 
 
 /* ---- */
-.block-one {
-  color: grey; // it's for text color
+/* .block-one {
+
+  color: grey;    it's for text color
   background: black;
 }
 
 .block-two {
   color: magenta;
   background: grey;
-}
+} */
 
 /* ---  Margins/ Padding --- */
-.block-one {
+/* .block-one {
   border: 2px solid black;
   padding-right: 10px;
 }
 .block-two {
   border: 2px solid black;
   margin-left: 10px;
-  /* margin-right: 10px; */
-}
+  margin-right: 10px;
+} */
 /* ~~~~~~~~~~~~~ !!!!!!!!!!!! */
 
 
 
-.black {
+/* .black {
   background-color: black;
 }
 .yellow {
@@ -105,6 +114,42 @@
   margin-bottom: 0;
   margin-right: auto;
   margin-left: auto;
-  /* margin-left: 40px;
-  margin-right: 40px; */
+
+} */
+
+
+.z {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  border: 1px solid black;
+
+ border-top: 1px solid blue;
+ border-bottom: 1px solid red;
+ border-left: 2px solid yellow;
+ border-right: 3px solid green;
+
+ /* border-radius: */
+
+font-size: 15px;
+font-style: normal;
+font-style: italic;
+font-weight: bold;
+font-weight: lighter;
+font-weight: normal;
+font-weight: 300;
+font-weight: 600;
+font-weight: 800;
+
+font-family: monospace;
+font-stretch: condensed;
+font-stretch: expanded;
+font-stretch: normal;
+
+font-variant: normal;
+
+line-height: normal;
+
+
 }

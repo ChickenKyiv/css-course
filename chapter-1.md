@@ -33,6 +33,11 @@ Let's add some another classes:
 }
 ```
 
+We cannot see the borders of this blocks, so it's not very visible,
+so let's add a rule, related to borders.
+I'll explain how it works later.
+
+
 
 
 When we create div with this class it looks like a square block.
@@ -50,6 +55,8 @@ Then I'll show you an example or using ids and implement cascade styling.
 
 
 When we add class square it looks this [pic]
+
+
 When we also add id attribute as red-square - it looks like it get rules from id.
 It's because an id have a higher priority in styling.
 Let's add class

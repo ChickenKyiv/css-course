@@ -6,12 +6,14 @@
 - image field
 - gallery blocks with small images
 
+
 #### syntax
 - text + background color
 - image to background
 - class and ids
 - css borders
 - border radius
+
 
 #### css rules that we'll cover during this course
 - float
@@ -27,6 +29,7 @@
 - pseudo-classes(before after)
 - maybe css3 gradients
 
+
 #### small styles
 image
 h1, h2, h5
@@ -35,10 +38,13 @@ pull-left
 borders
 backgrounds
 
+
 #### sections
 first
 second
 third
+
+
 
 #### basic grid configuration styles
 
@@ -53,6 +59,12 @@ React.JS - only basics. nothing advanced, because I'm mastering it right now too
 
 I should create a txt file with basic recipe data, like image url, etc.
 in the middle of the course we should have page with half of elements. like short version of recipe page.
+
+
+
+
+
+
 
 
 #### Part 4

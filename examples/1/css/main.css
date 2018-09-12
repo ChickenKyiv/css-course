@@ -1,0 +1,110 @@
+/* Part 1 */
+.blue-background {
+  background-color: blue;
+}
+
+/* Part 2 */
+
+.square {
+  height: 100px;
+  width:  100px;
+}
+
+/* Part 3 */
+#red-square {
+  height: 200px;
+  width:  200px;
+
+}
+
+/* Part 4 */
+.blue {
+  background-color: blue;
+}
+
+
+/* Part 5 */
+#red-square {
+  height: 200px;
+  width:  200px;
+  background-color: red;
+}
+
+
+
+/* Part DIVS */
+
+
+/* Current example */
+.main {
+  width: 100%;
+}
+.sidebar {
+  width: 25%;
+}
+.content {
+  width: 75%;
+}
+
+
+/* Chapter 2 */
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+
+/* ---- */
+.block-one {
+  color: grey; // it's for text color
+  background: black;
+}
+
+.block-two {
+  color: magenta;
+  background: grey;
+}
+
+/* ---  Margins/ Padding --- */
+.block-one {
+  border: 2px solid black;
+  padding-right: 10px;
+}
+.block-two {
+  border: 2px solid black;
+  margin-left: 10px;
+  /* margin-right: 10px; */
+}
+/* ~~~~~~~~~~~~~ !!!!!!!!!!!! */
+
+
+
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: yellow;
+  padding-top: 50px;
+  padding-left: 35px;
+}
+.white {
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.white {
+  background-color: white;
+  margin: 0 auto;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+}

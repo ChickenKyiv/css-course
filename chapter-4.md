@@ -46,6 +46,10 @@ third
 
 
 
+
+
+
+
 #### basic grid configuration styles
 
 
@@ -82,6 +86,9 @@ in the middle of the course we should have page with half of elements. like shor
 
 
 
+
+
+
 #### Part 4
 
 What do we see here
@@ -105,3 +112,32 @@ But we can limit or override this rule.
 If we add to our wrapper max-width: 400px, all elements will change their sides too.
 
 Because they count their sizes too. Because they count their widths based on percentage from parent element width.
+
+
+
+
+
+#### Part 3?
+
+I think for simple css tutorial we can create a simple recipe page.
+
+It will have h1 tag for recipe name
+
+h2 subheading
+
+blockquote for description
+
+image field for main recipe images
+Maybe we'll have part about css3 gradients for buttons or some panels like header
+
+Media queriest - another course too.
+
+Hover effects - it'll be awesome to give flexbox
+
+I'll use a code pen for code samples
+GitHub for saving assets
+no animations -> can be another course.
+
+
+
+maybe we'll add a lightbox / gallery
